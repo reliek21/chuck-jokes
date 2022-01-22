@@ -33,5 +33,5 @@ Start the server
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/reliek21/chuck-jokes/blob/main/LICENSE)
 
