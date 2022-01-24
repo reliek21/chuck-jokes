@@ -7,7 +7,7 @@ let btnGetJoke, olList;
 
 const createHtml = () => {
     const html = `
-        <button class="btn btn-outline-success">Get Joke</button>
+        <button class="btn btn-outline-success">Get joke</button>
         <hr>
         <ol class="mt-2 list-group d-flex flex-column-reverse">
         </ol>
