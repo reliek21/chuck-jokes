@@ -2,6 +2,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    animation: .5s slideDown;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        position: relative;
+        top: -3rem;
+    }
+    to {
+        opacity: 1;
+        position: relative;
+        top: 0rem;
+    }
 }
 
 .r-flex:first-child {
