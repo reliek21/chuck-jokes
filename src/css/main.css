@@ -4,6 +4,10 @@
     align-items: center;
 }
 
+.r-flex:first-child {
+    margin-bottom: 3rem;
+}
+
 .bg-b-h {
     height: 3rem;
 }

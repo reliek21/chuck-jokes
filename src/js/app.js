@@ -44,8 +44,9 @@ const drawJoke = (joke) => {
     divContainer.append(img);
 
     // select a class with a random number
-    let colorArray = ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark'];
-    let randomNumber = Math.floor(Math.random() * 8);
+    const colorArray = ['primary', 'secondary', 'success', 'danger', 'warning', 'info', 'light', 'dark'];
+    const randomNumber = Math.floor(Math.random() * 8);
+    console.log(randomNumber);
 
     // create item
     olItem.innerHTML = `<strong>${joke.id}</strong>: ${joke.value}`;
