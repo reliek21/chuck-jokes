@@ -6,8 +6,8 @@ const getJoke = async () => {
 
         if (!resp.ok) throw 'No request was made';
 
-        const { icon_url, id, value } = await resp.json();
-        return { icon_url, id, value };
+        const { icon_url, value } = await resp.json();
+        return { icon_url, value };
     } catch (err) {
         throw err;
     }

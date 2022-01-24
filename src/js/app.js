@@ -49,7 +49,7 @@ const drawJoke = (joke) => {
     const randomNumber = Math.floor(Math.random() * 8);
 
     // create item
-    olItem.innerHTML = `<strong>${joke.id}</strong>: ${joke.value}`;
+    olItem.innerHTML = joke.value;
     olItem.classList.add('list-group-item', `list-group-item-${colorArray[randomNumber]}`);
     divContainer.append(olItem);
 
