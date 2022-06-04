@@ -1,2 +1,0 @@
-.r-flex{display:flex;flex-direction:row;align-items:center;animation:.5s slideDown}@keyframes slideDown{from{opacity:0;position:relative;top:-3rem}to{opacity:1;position:relative;top:0}}.r-flex:first-child{margin-bottom:3rem}.bg-b-h{height:3rem}.list-group-item{border-radius:5px}.list-group-item:last-child{border-radius:5px}.github-source{border-bottom:0;position:fixed;right:0;text-decoration:none;top:0;z-index:1}svg{color:#fff;fill:rgb(31,31,31);height:80px;width:80px}
-/*# sourceMappingURL=main.31a0c60502f3152c2155.css.map*/
