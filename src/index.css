@@ -21,3 +21,7 @@ blockquote::before {
   color: rgb(155, 155, 155);
   font-size: 1.5em;
 }
+
+button:focus {
+  border-style: none  !important;
+}
