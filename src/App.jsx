@@ -1,9 +1,9 @@
-import './index.css';
+import Layout from './components/Layout';
 
 
 function App() {
-  return(
-    <h1>Chuck Jokes</h1>
+  return (
+    <Layout />
   )
 }
 
