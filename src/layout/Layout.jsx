@@ -7,14 +7,19 @@ import Joke from '../components/Joke';
 import Button from '../components/Button';
 
 import ChuckApi from '../config/fetch';
+import Footer from '../components/Footer';
 
 
 export default function Layout() {
   const [joke, setJoke] = useState('');
 
   const getDataAPI = async () => {
-    const response = await ChuckApi('jokes/random');
-    setJoke(response);
+    try {
+      const response = await ChuckApi('jokes/random');
+      setJoke(response);
+    } catch (error) {
+      alert(error);
+    }
   }
 
   useEffect(() => {
@@ -23,7 +28,7 @@ export default function Layout() {
 
 
   return (
-    <div>
+    <div className='flex flex-col h-screen justify-between'>
       <section className='text-black'>
         <div className='max-w-screen-xl px-4 py-32 mx-auto sm:px-6 lg:px-8'>
           <div className='max-w-lg mx-auto text-center'>
@@ -34,6 +39,8 @@ export default function Layout() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   )
 }
